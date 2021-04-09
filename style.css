@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway' , sans-serif;
+}
+/* ******************************************************* HEADER******************************************************************************* */
+
+header{
+    width : 1340px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .menu ul{
+       list-style-type: none; 
+   }
+
+   nav li{
+       margin-right: 66px;
+   }
+
+   nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 15px;
+   }
+
+   ul a{
+       text-decoration: none;
+   }
+
+  .noir{
+       color: black;
+   }
+
+  .bold{
+       font-weight: bold;
+   }
+
+    header a:hover{
+      text-decoration: #0065fc overline;
+      text-decoration-style: double;
+    }
+
+    /* *********************************************** FINDER*********************************************************************************** */
+
+    #finder{
+      width: 1340px;
+      margin:auto;
+    }
+
+    #finder h2{
+        font-size: 20px;
+    }
+
+    #finder p{
+        font-size: 15px;
+        line-height: 0;
+        font-weight: lighter;
+        }
+  
+    .search p 
+    {
+        margin: 0;
+        padding: 0;
+    }  
+    
+   form{
+       border:3px solid black;
+       border-radius: 15px 15px;
+       width:424px;
+       height:52px;
+       margin:0;
+       padding:0;
+       position: absolute;
+ }
+    form i {
+        border: 2px solid red;
+        border-radius: 15px 0 0 15px;
+        background-color: cadetblue;
+        height: 45px;
+        width: 50px;
+        position: relative;
+        bottom: 13px;
+    }
+
+    .texte{
+        width: 215px;
+        height: 45px;
+        margin: 0;
+        padding:0;
+    }
+
+    ::placeholder{
+        font-family: 'Raleway' , sans-serif;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .button{
+        color:#ffff;
+        font-weight: bold;
+        background-color: #0065fc;
+        border: 1px solid #0065fc;
+        border-radius: 0 15px 15px 0;
+        width: 130px;
+        height: 51px;
+    }
+
+    
+
+    
+   
+    
+
+    
+    
