@@ -125,8 +125,7 @@ header{
     }
 
         .button:hover{
-        background-color: #ffff;
-        color: #0065fc;
+      cursor: pointer;
     }
 
     /* ********************************************************FILTRES************************************************************************** */
@@ -197,6 +196,7 @@ header{
     .filtres li :hover{
         color:#0065fc;
     }
+  
     #filter p {
         font-size: 15px;
         font-weight: lighter;
@@ -251,6 +251,7 @@ header{
         font-size: 13px;
        
     }
+
 
     .hotels h3{
         margin:auto;
