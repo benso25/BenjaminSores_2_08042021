@@ -52,7 +52,7 @@ header{
       text-decoration-style: double;
     }
 
-    /* *********************************************** FINDER*********************************************************************************** */
+    /* ********************************************************* FINDER************************************************************************ */
 
     #finder{
       width: 1340px;
@@ -105,6 +105,11 @@ header{
         border: 0.2px solid #f2f2f2;
     }
 
+    input{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
         ::placeholder{
         font-family: 'Raleway' , sans-serif;
         color: black;
@@ -126,9 +131,13 @@ header{
 
         .button:hover{
       cursor: pointer;
+      color: #0065fc;
+      background-color: #ffff;
     }
 
     /* ********************************************************FILTRES************************************************************************** */
+    
+    
     #filter{
         width: 1340px;
         margin: auto;
@@ -211,7 +220,11 @@ header{
         border: 3px solid #d9d9d9;
         border-radius: 50px 50px;
     }
+
+
     /* ************************************************************HEBERGEMENTS *************************************************************** */
+    
+    
     #hebergements{
         width: 1340px;
         margin: auto;
@@ -242,6 +255,7 @@ header{
         background-color: #f2f2f2;
         border-radius: 15px 15px;
         margin-right: 40px;
+        margin-bottom: 64px;
     }
 
     .hotels{
@@ -293,6 +307,16 @@ header{
         border: 2px solid #ffff;
         background-color: #ffff;
         border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+    }
+
+    .hotel1 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .hotel1 a:hover{
+        color: #0065fc;
     }
 
     .hotel1 img{
@@ -317,6 +341,16 @@ header{
         border: 2px solid #ffff;
         background-color: #ffff;
         border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+    }
+
+    .hotel2 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .hotel2 a:hover{
+        color: #0065fc;
     }
 
     .hotel2 img{
@@ -341,6 +375,16 @@ header{
         border: 2px solid #ffff;
         background-color: #ffff;
         border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+    }
+
+    .hotel3 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .hotel3 a:hover{
+        color: #0065fc;
     }
 
     .hotel3 img{
@@ -365,6 +409,16 @@ header{
         border: 2px solid #ffff;
         background-color: #ffff;
         border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+    }
+
+    .hotel4 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .hotel4 a:hover{
+        color: #0065fc;
     }
 
     .hotel4 img{
@@ -390,6 +444,16 @@ header{
         border: 2px solid #ffff;
         background-color: #ffff;
         border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+    }
+
+    .hotel5 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .hotel5 a:hover{
+        color: #0065fc;
     }
 
     .hotel5 img{
@@ -414,6 +478,16 @@ header{
         border: 2px solid #ffff;
         background-color: #ffff;
         border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+    }
+
+    .hotel6 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .hotel6 a:hover{
+        color: #0065fc;
     }
 
     .hotel6 img{
@@ -439,6 +513,7 @@ header{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-bottom: 64px;
     }
 
 
@@ -475,6 +550,16 @@ header{
         border: 2px solid #ffff;
         background-color: #ffff;
         border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+    }
+
+    .hotel7 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .hotel7 a:hover{
+        color: #0065fc;
     }
 
     .hotel7 img{
@@ -505,6 +590,16 @@ header{
         border: 2px solid #ffff;
         background-color: #ffff;
         border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+    }
+
+    .hotel8 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .hotel8 a:hover{
+        color: #0065fc;
     }
 
     .hotel8 img{
@@ -535,6 +630,16 @@ header{
         border: 2px solid #ffff;
         background-color: #ffff;
         border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+    }
+
+    .hotel9 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .hotel9 a:hover{
+        color: #0065fc;
     }
 
     .hotel9 img{
@@ -554,6 +659,171 @@ header{
         margin-top: 62px;
         margin-bottom: 13px;
     }
+
+   
+    /****************************************************************ACTIVITES******************************************************************/
+    
+    #activites{
+        width: 1340px;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+
+    #activites h2{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    #activites a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    #activites a:hover{
+        color: #0065fc;
+    }
+
+    .activites{
+        width: 1340px;
+        margin: auto;
+    }
+
+    .photo{
+        display: flex;
+        margin-left: -45px;
+     
+    }
+
+    .port{
+        height: 449px;
+        width: 301px;
+        border: 2px solid #ffff;
+        border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+        margin-right: 2px;
+    }
+
+    .port p{
+        margin-left: 19px;
+        margin-top: 15px;
+        margin-bottom: 22px;
+    }
+
+    .port img{
+        height: 389px;
+        width: 302px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .fort{
+        width: 302px;
+        height: 240px;
+        border: 2px solid #ffff;
+        border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+        margin-bottom: 38px ;
+        margin-right: 2px;
+    }
+
+    .fort p{
+        margin-left: 19px;
+        margin-top: 15px;
+        margin-bottom: 21px;
+    }
+
+    .fort img{
+        width: 302px;
+        height: 182px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .iles{
+        width: 304px;
+        height: 166px;
+        border: 2px solid #ffff;
+        border-radius: 15px 15px ;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+        margin-right: 2px;
+    }
+
+    .iles p{
+        margin-left: 19px;
+        margin-top: 15px;
+        margin-bottom: 21px;
+    }
+
+    .iles img{
+        width: 304px;
+        height: 110px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .calanques{
+        height: 449px;
+        width: 301px;
+        border: 2px solid #ffff;
+        border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+        margin-right: 2px;
+    }
+
+    .calanques p{
+        margin-left: 19px;
+        margin-top: 15px;
+        margin-bottom: 22px;
+    }
+
+    .calanques img{
+        height: 389px;
+        width: 302px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .dame{
+        height: 196px;
+        width: 302px;
+        border: 2px solid #ffff;
+        border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+        margin-bottom: 35px;
+    }
+    .dame p{
+        margin-left: 19px;
+        margin-top: 15px;
+        margin-bottom: 21px;
+    }
+
+    .dame img{
+        width: 302px;
+        height: 140px;
+        border-radius: 15px 15px 0 0;
+
+    }
+
+    .parc{
+        width: 302px;
+        height: 213px;
+        border: 2px solid #ffff;
+        border-radius: 15px 15px;
+        box-shadow: 0 5px 5px 0 #d9d9d9;
+    }
+
+    .parc p{
+        margin-left: 19px;
+        margin-top: 15px;
+        margin-bottom: 21px;
+    }
+
+    .parc img{
+        width: 302px;
+        height: 155px;
+        border-radius: 15px 15px 0 0;
+    }
+
 
     
 
