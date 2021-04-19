@@ -522,6 +522,14 @@ header{
         margin-right: 40px;
     }
 
+    .populaire h2 a{
+        color: black;
+    }
+
+    .populaire h2 a:hover{
+        color: #0065fc;
+    }
+
 
 
     .populars i{
@@ -823,6 +831,75 @@ header{
         height: 155px;
         border-radius: 15px 15px 0 0;
     }
+
+    /************************************************************FOOTER***************************************************************************/
+
+    #footer{
+        width: 100%;
+        height: 223px;
+        background-color:#f2f2f2;
+    }
+
+    #footer ul{
+        list-style-type: none;
+    }
+
+    #footer a{
+        color:black;
+        font-weight: lighter;
+    }
+
+    #footer a:hover{
+        color:#0065fc;
+        font-weight: 400;
+    }
+
+    #footer li{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #footer h3{
+       font-size: 15px;
+    }
+
+    .footer{
+        width: 1340px;
+        height: 223px;
+        margin: auto;
+        display: flex;
+    }
+
+    .propos h3{
+        margin-left: -5px;
+        margin-right: 370px;
+        margin-top: 40px;
+        margin-bottom: 24px;
+}
+
+.propos li{
+    margin-left: -45px;
+}
+
+.nos h3{
+    margin-right: 370px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.nos li{
+    margin-left: -45px;
+}
+
+.assistance h3{
+    margin-right: 370px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.assistance li{
+    margin-left: -45px;
+}
 
 
     
