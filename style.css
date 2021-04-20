@@ -98,7 +98,6 @@ header{
         width: 396px;
         height: 50px;
         margin: auto; 
-        padding: auto;
         display: flex;
         border: 0.05px solid #f2f2f2;
         border-radius: 15px 15px 15px 15px;
@@ -919,7 +918,7 @@ header{
 
     .propos h3{
         margin-left: -5px;
-        margin-right: 370px;
+        margin-right: 387px;
         margin-top: 40px;
         margin-bottom: 24px;
 }
@@ -929,7 +928,7 @@ header{
 }
 
 .nos h3{
-    margin-right: 370px;
+    margin-right: 398px;
     margin-top: 40px;
     margin-bottom: 24px;
 }
@@ -939,13 +938,13 @@ header{
 }
 
 .assistance h3{
-    margin-right: 370px;
+    margin-left: -50px;
     margin-top: 40px;
     margin-bottom: 24px;
 }
 
 .assistance li{
-    margin-left: -45px;
+    margin-left: -91px;
 }
 
 
