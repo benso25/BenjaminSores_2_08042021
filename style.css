@@ -3,6 +3,12 @@ body{
     padding:0;
     font-family: 'Raleway' , sans-serif;
 }
+
+@media screen and (max-width: 414px){
+    body{
+        width: 375px;
+    }
+}
 /* ******************************************************* HEADER******************************************************************************* */
 
 header{
@@ -50,6 +56,23 @@ header{
     header a:hover{
       text-decoration: #0065fc overline;
       text-decoration-style: double;
+    }
+
+    @media screen and (max-width: 414px){
+            header{
+                width: 335px;
+                margin:auto;
+            }
+            
+            nav ul{
+                flex-wrap: wrap-reverse;
+            }
+
+            nav li{
+                margin-right: 15px;
+                margin-top: 45px;
+            }
+            
     }
 
     /* ********************************************************* FINDER************************************************************************ */
@@ -133,6 +156,23 @@ header{
       cursor: pointer;
       color: #0065fc;
       background-color: #ffff;
+    }
+
+    @media screen and (max-width:414px){
+        #finder{
+            width: 335px;
+            margin: auto;
+            margin-bottom: 21px;
+        }
+        .search{
+            width: 313px;
+            height: 53px;
+        }
+        .button{
+            width: 50px;
+            height: 52px;
+        }
+
     }
 
     /* ********************************************************FILTRES************************************************************************** */
@@ -221,6 +261,13 @@ header{
         border-radius: 50px 50px;
     }
 
+    @media screen and (max-width: 414px){
+        #filter{
+            width: 335px;
+            margin: auto;
+        }
+        
+    }
 
     /* ************************************************************HEBERGEMENTS *************************************************************** */
     
