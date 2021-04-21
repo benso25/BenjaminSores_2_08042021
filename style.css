@@ -49,8 +49,7 @@ header{
    
 
     header a:hover{
-      text-decoration: #0065fc overline;
-      text-decoration-style: double;
+      text-decoration: overline 3px solid #0065fc;
     }
 
 
@@ -911,6 +910,7 @@ header{
 @media screen and (max-width: 380px){
     body{
         width: auto;
+        margin: auto;
     }
 }
 
@@ -920,6 +920,8 @@ header{
         padding-top: 5px;
         padding-bottom: 0px;
         margin-left:21px;
+        margin-right: 21px;
+        margin-bottom: 40px;
         width: 100%; 
         display:flex;
         flex-wrap:wrap;
@@ -927,22 +929,60 @@ header{
     }
 
     .logo{
-        margin-left:30px;
-        margin-bottom:-55px;
+        margin-left:50px;
+        margin-bottom:-53px;
         margin-top: 25px;
     }
    
-    
     nav ul{
         width:auto;
         flex-wrap:wrap-reverse;
+        margin-right: -60px;
+        margin-bottom: -10px;
        }
+
      nav li{
         margin-bottom: 25px;
         margin-top: 5px;
      }
+
+     .noir{
+         margin-left: 30px;
+         margin-right: 35px;
+     }
+
+     nav ul a:hover{
+         text-decoration: underline 3px solid #0065fc;
+         text-underline-offset: 16px;     
+    }
+
+     #finder{
+         width: auto;
+         margin-left: 65px;
+         margin-top: -25px;
+     }
+
+     #finder h2 , p{
+         text-align: center;
+     }
     
+     .search{
+         width:280px;
+         padding-top: 3px;
+         position:absolute;
+     }
     
+     .search i{
+         margin-right: 20px;
+         margin-left: -30px;
+     }
+
+     .button{
+         width: 52px;
+         position: relative;
+         bottom: 68px;
+         left: 150px;
+     }
     }
     
    
