@@ -919,8 +919,8 @@ header{
     header{
         padding-top: 5px;
         padding-bottom: 0px;
-        margin-left:21px;
-        margin-right: 21px;
+        margin-left:auto;
+        margin-right: auto;
         margin-bottom: 40px;
         width: 100%; 
         display:flex;
@@ -984,12 +984,13 @@ header{
          left: 150px;
      }
 
-     
+
 
      #hebergements{
         width:100%;
+        margin: auto;
         height:300px;
-        margin-bottom:30000px;
+        margin-bottom:2200px;
         display:flex;
         flex-direction:column
         
@@ -1037,10 +1038,11 @@ header{
      
      .hotels figure{
          width: 300px;
+         padding-right: 7px;
      }
 
      .hotels figure img{
-         width : 300px;
+         width : 295px;
      }
 
 
