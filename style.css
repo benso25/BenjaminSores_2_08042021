@@ -4,11 +4,6 @@ body{
     font-family: 'Raleway' , sans-serif;
 }
 
-@media screen and (max-width: 414px){
-    body{
-        width: 375px;
-    }
-}
 /* ******************************************************* HEADER******************************************************************************* */
 
 header{
@@ -58,22 +53,7 @@ header{
       text-decoration-style: double;
     }
 
-    @media screen and (max-width: 414px){
-            header{
-                width: 335px;
-                margin:auto;
-            }
-            
-            nav ul{
-                flex-wrap: wrap-reverse;
-            }
 
-            nav li{
-                margin-right: 15px;
-                margin-top: 45px;
-            }
-            
-    }
 
     /* ********************************************************* FINDER************************************************************************ */
 
@@ -157,22 +137,6 @@ header{
       background-color: #ffff;
     }
 
-    @media screen and (max-width:414px){
-        #finder{
-            width: 335px;
-            margin: auto;
-            margin-bottom: 21px;
-        }
-        .search{
-            width: 313px;
-            height: 53px;
-        }
-        .button{
-            width: 50px;
-            height: 52px;
-        }
-
-    }
 
     /* ********************************************************FILTRES************************************************************************** */
     
@@ -260,13 +224,8 @@ header{
         border-radius: 50px 50px;
     }
 
-    @media screen and (max-width: 414px){
-        #filter{
-            width: 335px;
-            margin: auto;
-        }
         
-    }
+    
 
     /* ************************************************************HEBERGEMENTS *************************************************************** */
     
@@ -947,9 +906,41 @@ header{
     margin-left: -91px;
 }
 
+/*************************************************Media Queries iPhone8 **************************************************************************/
+  
+@media screen and (max-width: 380px){
+    body{
+        width: auto;
+    }
+}
 
+
+@media screen and (max-width: 380px){
+    header{
+        padding-top: 5px;
+        padding-bottom: 0px;
+        margin-left:21px;
+        width: 100%; 
+        display:flex;
+        flex-wrap:wrap;
+
+    }
+
+    .logo{
+        margin-left:30px;
+        margin-bottom:-55px;
+        margin-top: 25px;
+    }
+   
     
-
+    nav ul{
+        width:auto;
+        flex-wrap:wrap-reverse;
+       }
+     nav li{
+        margin-bottom: 25px;
+        margin-top: 5px;
+     }
     
    
     
