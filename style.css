@@ -73,7 +73,7 @@ header{
         padding-bottom: 20px;
         }
 
-    .search{
+    form{
         width: 396px;
         height: 50px;
         margin: auto; 
@@ -82,59 +82,67 @@ header{
         border-radius: 15px 15px 15px 15px;
         background-color: #f2f2f2;
         position: absolute;
-       
-    }
+           
+        }
     
-    .search p{
-        position: relative;
-        bottom: 15.1px;
-    }
-
-    .search i {
-        height: 51px;
-        width: 45px;
-        position: relative;
-        left: 18px;
-
-    }
-
-    .texte{
-        width: 212px;
-        height: 45px;
-        margin: 0;
-        padding:0;
-        border: 0.2px solid #f2f2f2;
-    }
-
     input{
+        border: 2px solid #f2f2f2;
+        width: 220px;
         font-size: 15px;
         font-weight: bold;
-    }
-
-        ::placeholder{
+        }
+    
+    ::placeholder{
         font-family: 'Raleway' , sans-serif;
         color: black;
         font-weight: bold;
         font-size: 15px;
         text-align: center;
-    }
+        }
+    
 
-
-        .button{
+    .button_texte{
         color:#ffff;
+        font-size: 15px;
         font-weight: bold;
         background-color: #0065fc;
         border: 1px solid #0065fc;
         border-radius: 0 15px 15px 0;
-        width: 133px;
-        height: 51px;
-    }
-
-        .button:hover{
-      cursor: pointer;
-      color: #0065fc;
-      background-color: #ffff;
-    }
+        width: 145px;
+        height: 50px;
+        }
+    
+    .button_texte:hover{     
+        cursor: pointer;
+        color: #0065fc;
+        background-color: #ffff;
+        }
+    
+    .gps{
+        position: relative;
+        right:10px;
+        top: 15px;
+        left: 20px;
+        margin-right: 35px;
+        }
+    
+    .icone{
+        display: none;
+        color:#ffff;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: #0065fc;
+        border: 1px solid #0065fc;
+        border-radius: 0 15px 15px 0;
+        width: 145px;
+        height: 50px;
+        }
+    
+    .icone :hover{     
+        cursor: pointer;
+        color: #0065fc;
+        background-color: #ffff;
+        }
 
 
     /* ********************************************************FILTRES************************************************************************** */
@@ -916,6 +924,8 @@ header{
 
 
 @media screen and (max-width: 380px){
+    
+  /**********************header responsive ***************/  
     header{
         padding-top: 5px;
         padding-bottom: 0px;
@@ -956,6 +966,8 @@ header{
          text-underline-offset: 16px;     
     }
 
+ /***********************finder responsive********************/
+
      #finder{
          width: auto;
          margin-left: 65px;
@@ -965,26 +977,27 @@ header{
      #finder h2 , p{
          text-align: center;
      }
+
+/********************************formulaire responsive*********************/
     
-     .search{
-         width:280px;
-         padding-top: 3px;
-         position:absolute;
-     }
-    
-     .search i{
-         margin-right: 20px;
-         margin-left: -30px;
+     form{
+         width: 319px;
      }
 
-     .button{
+     input{
+         width: 220px;
+     }
+
+     .button_texte{
+         display: none;
+     }
+
+     .icone{
+         display : block;
          width: 52px;
-         position: relative;
-         bottom: 68px;
-         left: 150px;
      }
 
-
+/******************************hebergements responsive********************************************/
 
      #hebergements{
         width:100%;
@@ -1044,6 +1057,39 @@ header{
      .hotels figure img{
          width : 295px;
      }
+
+     
+     .populaire{
+        margin-left:21px;
+        margin-right:21px;
+        margin-top:-60px;
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction:column;
+      
+    }
+
+    .populaire h2{
+        width:100%;
+    }
+
+    .populaire figure{
+     width: 320px;
+     margin-left:25px;
+    }
+     
+    .hotel7 i{
+        margin-top:45px;
+    }
+
+    .hotel8 i{
+        margin-top: 35px;
+    }
+
+    .hotel9 i{
+        margin-top: 45px;
+    }
 
 
     }
