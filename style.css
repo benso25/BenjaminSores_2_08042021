@@ -932,7 +932,7 @@ header{
         margin-left:auto;
         margin-right: auto;
         margin-bottom: 40px;
-        width: 100%; 
+        width: auto; 
         display:flex;
         flex-wrap:wrap;
 
@@ -951,67 +951,66 @@ header{
         margin-bottom: -10px;
        }
 
-     nav li{
+    nav li{
         margin-bottom: 25px;
         margin-top: 5px;
      }
 
-     .noir{
+    .noir{
          margin-left: 30px;
          margin-right: 35px;
      }
 
-     nav ul a:hover{
+    nav ul a:hover{
          text-decoration: underline 3px solid #0065fc;
          text-underline-offset: 16px;     
-    }
+     }
 
  /***********************finder responsive********************/
 
-     #finder{
+    #finder{
          width: auto;
          margin-left: 65px;
          margin-top: -25px;
      }
 
-     #finder h2 , p{
+    #finder h2 , p{
          text-align: center;
      }
 
 /********************************formulaire responsive*********************/
     
-     form{
+    form{
          width: 319px;
+         margin-left: -10px;
      }
 
-     input{
+    input{
          width: 220px;
      }
 
-     .button_texte{
+    .button_texte{
          display: none;
      }
 
-     .icone{
+    .icone{
          display : block;
          width: 52px;
      }
 
 /******************************hebergements responsive********************************************/
 
-     #hebergements{
+    #hebergements{
         width:100%;
         margin: auto;
         height:300px;
         margin-bottom:2200px;
         display:flex;
         flex-direction:column
-        
-      
     }
 
     .hebergements{
-        margin-left:21px;
+        margin-left:15px;
         width:100%;
         height:auto;
         display: flex;
@@ -1020,14 +1019,15 @@ header{
         background-color:#ffff;
         border:none;
     }
-       
-       
-
+  
     .hebergements h2{
        margin-left:21px;
        margin-right:65px;
     }
 
+    .hebergements h3{
+        margin-left: 70px;
+    }
 
     .hotels{
         margin-left:21px;
@@ -1037,29 +1037,37 @@ header{
         align-items: center;
     }
 
-    .hotel3, .hotel6{
-        margin-left:45px;
+    .hotel2{
+        margin-left: 40px;
     }
 
-    .hotel2{
-        margin-left:40px
+    .hotel3{
+        margin-left:65px;
     }
 
     .hotel4{
+        margin-left: 60px;
         margin-right:35px;
     }
+
+    .hotel5{
+        margin-left: 45px;
+    }
+
+    .hotel6{
+        margin-left: 65px;
+    }
      
-     .hotels figure{
+    .hotels figure{
          width: 300px;
          padding-right: 7px;
      }
 
-     .hotels figure img{
+    .hotels figure img{
          width : 295px;
      }
 
-     
-     .populaire{
+    .populaire{
         margin-left:21px;
         margin-right:21px;
         margin-top:-60px;
@@ -1075,8 +1083,8 @@ header{
     }
 
     .populaire figure{
-     width: 320px;
-     margin-left:25px;
+        width: 310px;
+        margin-left:35px;
     }
      
     .hotel7 i{
@@ -1084,12 +1092,59 @@ header{
     }
 
     .hotel8 i{
-        margin-top: 35px;
+        margin-top: 15px;
     }
 
     .hotel9 i{
         margin-top: 45px;
     }
+
+    /*******************************************activites responsive************************************************/
+
+    #activites{
+        width: 100%;
+        height:auto;
+        margin: auto;
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        margin-left: 21px;
+    }
+
+    #activite h2{
+        margin-left: 45px;
+    }
+
+    .photo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .photo figure{
+        width: 300px;
+        height: 200px;
+        padding-right: 1px;
+        padding-left: 2px;
+        padding-top: 2px;
+    }
+
+    .photo figure p{
+        text-align: center;
+    }
+
+    .photo figure img{
+        width: 295px;
+        height: 150px;
+    }
+
+    .dame , .parc{
+        margin-left: 70px;
+    }
+
+
+
 
 
     }
