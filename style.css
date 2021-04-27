@@ -901,21 +901,41 @@ main{
         background: #ffff;
         margin-left: -12px;
         padding-right: 24px;
-        width: 100%;
+        width: 360px;
+    }
+
+    .bloc_hebergement h2{
+        margin-left: 120px;
+    }
+
+    .hotels{
+        margin-left: 120px;
+    }
+
+    .hotel{
+        width: 320px;
+    }
+
+    .afficher_plus{
+        margin-left: 120px;
     }
 
     .bloc_populaire{
         margin-left: -12px;
         padding-right: 24px;
-        width: 375px;
+        width: 360px;
         height: 580px;
         border-radius: 0;
     } 
     
     .bloc_activites{
-        margin-left: -12px;
+        margin-left: 0;
         padding-right: 24px;
         width: 100%;
+    }
+
+    .blocs_footer{
+        height: auto;
     }
 
     .blocs_footer #section2{
