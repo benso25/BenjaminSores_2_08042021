@@ -270,6 +270,7 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap-reverse;
     align-items: center;
     padding: 0 20px;
 }
@@ -603,7 +604,316 @@ main{
     color: black;
 }
 
+/*****************************Media Queries ****************/
+@media screen and (max-width: 1440px){
+    .hebergements{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr;
+        row-gap: 30px;
+        grid-template-areas: 
+            "bloc_populaire"
+            "bloc_hebergement";
+    }
+
+    .hebergements .bloc_hebergement{
+        grid-area: bloc_hebergement;
+    }
+
+    .hebergements .bloc_populaire{
+        grid-area: bloc_populaire;
+    }
+
+    .hotels{
+        width: 100%;
+    }
+
+    .hotel > .hotel-img{
+        width: 100%;
+        height: 100px;
+        background-size: cover;
+    }
+
+    .plus-populaires{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr;
+        column-gap: 25px;
+        height: 200px;
+        width: 95%;
+    }
+    .plus-populaires .titre-icone{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0;
+        grid-area: 1 / 1 / 2 / -1;
+    }
+
+    .plus-populaires .titre-icone h2{
+        margin: 0;
+    }
+
+    .plus-populaires a{
+        display: grid;
+    }
+
+    .populaire{
+        height: auto;
+    }
+
+    .populaire-img{
+        margin: 0;
+        width: 30%;
+        height: 100%;
+        background-size: cover;
+        border-radius: 20px 0 0 15px;
+    }
+
+    .populaire-img img{
+        min-width: 80px;
+
+    }
+
+    .bloc_activites{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "Act1 Act2 Act3"
+            "Act4 Act5 Act6";
+        margin-bottom: 100px;
+    }
+
+    .activite{
+        max-height: 270px;
+        min-height: 270px;
+    }
+
+    #Act1{
+        grid-area: Act1;
+    }
+
+    #Act2{
+        grid-area: Act2;
+    }
+
+    #Act3{
+        grid-area: Act3;
+    }
+
+    #Act4{
+        grid-area: Act4;
+    }
+
+    #Act5{
+        grid-area: Act5;
+    }
+
+    #Act6{
+        grid-area: Act6;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px){
+    main{
+        width:95%
+    }
+}
+
+@media screen and (max-width: 900px){
+    main{
+        width: 92%;
+    }
+
+    .hotels{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .bloc_populaire{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        height: 560px;
+    }
     
+    .bloc_populaire .plus-populaires{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding-top: 25px;
+    }
+
+    .bloc_populaire .plus-populaires .populaire{
+        height: 120px;
+    }
+
+    .bloc_activites{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-bottom: 370px;
+        grid-template-areas:
+            "Act1 Act2"
+            "Act4 Act3"
+            "Act5 Act6";
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "logo inscription"
+            "hebergement activites";
+    }
+
+    .navbar img{
+        grid-area: logo;
+    }
+
+    .navbar #lien-navbar-inscription{
+        display: flex;
+        justify-content: flex-end;
+        grid-area: inscription;
+    }
+
+    .navbar #lien-navbar-hebergement{
+        flex-direction: column-reverse;
+        grid-area: hebergement;
+    }
+    
+    #lien-navbar-hebergement a{
+        color:#0065fc;
+    }
+
+    .navbar #lien-navbar-activites{
+        flex-direction: column-reverse;
+        grid-area: activites;
+    }
+
+    .barre_recherche{
+        width: 25px;
+    }
+    .fa-map-marker-alt{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    #bouton_recherche{
+        display: none;
+    }
+
+    #bouton_loupe{
+        display: inline;
+        font-size: 11px;
+        background-color: #0065fc;
+        color: #ffff;
+        padding: 12px;
+        border-radius: 15px;
+        border: 1px solid #0065fc;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .hebergements{
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .hotels{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1 fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .hotels .texte-hotel{
+        font-size: 14px;
+    }
+
+    .populaire-img img{
+        min-width: 95px;
+    }
+
+    .populaire .texte-hotel{
+        font-size: 14px;
+        margin-left: 35px;
+    }
+
+    #activites{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+        grid-template-areas:
+            "Act6"
+            "Act5"
+            "Act4"
+            "Act3"
+            "Act2"
+            "Act1";
+        height: 1500px;
+        margin-bottom: 350px;
+    }
+
+    .blocs_footer{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blocs_footer #section1, #section2{
+        margin-right:220px;
+    }
+
+    .blocs_footer #section3{
+        margin-left: 25px;
+    }
+
+    .blocs_footer .section{
+        padding: 15px 15px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .formulaire_recherche{
+        width: 20%;
+    }
+
+    .filtres ul li{
+        padding 0 12px 0 0;
+        margin-left: 5px;
+    }
+
+    .bloc_hebergement{
+        background: #ffff;
+        margin-left: -12px;
+        padding-right: 24px;
+        width: 100%;
+    }
+
+    .bloc_populaire{
+        margin-left: -12px;
+        padding-right: 24px;
+        width: 100%;
+        border-radius: 0;
+    } 
+    
+    .bloc_activites{
+        margin-left: -12px;
+        padding-right: 24px;
+        width: 100%;
+    }
+}
+
+
+    
+
+
    
     
 
