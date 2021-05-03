@@ -133,9 +133,10 @@ main{
     justify-content: center;
     align-items: center;
     width: 56px; 
-    height: 55px;
+    height: 51.5px;
     background-color: #f2f2f2;
     border-radius: 14px 0 0 14px;
+    margin-right: -5px;
 }
 
 .fa-map-marker-alt{
@@ -168,7 +169,9 @@ main{
     font-weight: 700;
     font-size: 16px;
     padding: 17px;
+    height: 51.5px;
     cursor: pointer;
+    margin-left: -5px;
 }
 
 .bouton_recherche:hover{
@@ -341,6 +344,10 @@ main{
 
 .hotel .texte-hotel .prix-hotel{
     margin: 3px 0 3px 0;
+}
+
+.afficher_plus{
+    margin-top: 75px;
 }
 
 .afficher_plus a:hover{
@@ -605,7 +612,16 @@ main{
 
 /*****************************Media Queries ****************/
 @media screen and (max-width: 1440px){
+
+    body{
+        max-width: 1440px;
+        min-width: 1200px;
+        margin: auto;
+    }
+
     .hebergements{
+        max-width: 1430px;
+        min-width: 1200px;
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr 1fr;
         row-gap: 30px;
@@ -638,7 +654,6 @@ main{
         grid-template-rows: 1fr 3fr;
         column-gap: 25px;
         height: 200px;
-        width: 95%;
     }
     .plus-populaires .titre-icone{
         display: flex;
@@ -662,7 +677,7 @@ main{
 
     .populaire-img{
         margin: 0;
-        width: 30%;
+        width: 50%;
         height: 100%;
         background-size: cover;
         border-radius: 20px 0 0 15px;
@@ -719,10 +734,11 @@ main{
 
 
 @media screen and (max-width: 1200px){
-    main{
-        width:95%
-    }
 
+    body{
+        max-width: 1200px;
+        min-width: 800px;
+    }
 
     .populaire .texte-hotel{
         margin-left: 35px;
@@ -730,9 +746,6 @@ main{
 }
 
 @media screen and (max-width: 900px){
-    main{
-        width: 92%;
-    }
 
     .hotels{
         display: grid;
@@ -745,6 +758,8 @@ main{
         justify-content: center;
         align-items: stretch;
         height: 560px;
+        max-width: 900px;
+        min-width: 700px;
     }
     
     .bloc_populaire .plus-populaires{
@@ -772,7 +787,65 @@ main{
 
 }
 
+@media screen and (max-width: 780px){
+    body{
+        max-width: 780px;
+        min-width: 600px;
+    }
+    
+    header{
+        max-width:600px;
+    }
+
+    .titre , .precision{
+        text-align: center;
+    }
+
+    .fomulaire_recherche{
+        max-width: 720px;
+        min-width: 600px;
+    }
+
+    .icone{
+        margin-left: 170px;
+    }
+
+    .filtres{
+        max-width: 720px;
+        min-width: 600px;
+    }
+
+    .hebergements{
+        max-width: 720px;
+        min-width: 600px;
+    }
+
+    .bloc_activites{
+        max-width: 720px;
+        min-width: 600px;
+    }
+
+    .footer{
+        max-width: 720px;
+        min-width: 600px;
+    }
+
+    .blocs_footer #section2{
+        margin-left: 45px;
+    }
+
+    .blocs_footer #section3{
+        margin-left: 45px;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
+    body{
+      max-width: 600px;
+      min-width: 480px;
+    }
+        
     .navbar{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -809,6 +882,7 @@ main{
     .barre_recherche{
         width: 25px;
     }
+
     .fa-map-marker-alt{
         font-size: 12px;
         padding: 10px;
@@ -818,16 +892,24 @@ main{
         display: none;
     }
 
+    .icone{
+        margin-right: -5px;
+        height: 51px;
+    }
+
     #bouton_loupe{
         display: inline;
-        font-size: 11px;
+        font-size: 15px;
         background-color: #0065fc;
         color: #ffff;
         padding: 12px;
-        border-radius: 15px;
+        border-radius: 10px;
         border: 1px solid #0065fc;
         height: auto;
-        margin-top: 25px;
+        margin-top: 22px;
+        margin-left: -10px;
+        height: 52px;
+        width: 50px;
     }
 
     .hebergements{
@@ -842,6 +924,11 @@ main{
 
     .hotels .texte-hotel{
         font-size: 14px;
+    }
+
+    .afficher_plus{
+        margin-top: 35px;
+        font-weight: bold;
     }
 
     .populaire-img img{
@@ -865,7 +952,7 @@ main{
             "Act2"
             "Act1";
         height: 1500px;
-        margin-bottom: 350px;
+        margin-bottom: 250px;
     }
 
     .blocs_footer{
@@ -888,6 +975,56 @@ main{
 }
 
 @media screen and (max-width: 480px){
+    body{
+        min-width: 380px;
+        max-width: 380px;
+    }
+
+    header{
+        max-width: 360px;
+        min-width: 360px;
+        border-bottom: 2px solid #d9d9d9;
+    }
+
+    .navbar #lien-navbar-hebergement:hover{
+        border-top: 0px solid transparent;
+        border-bottom: 3px solid #0065fc;
+        padding-bottom: 40px;
+        background: #ffff;
+    }
+    
+    
+    .navbar #lien-navbar-activites:hover{
+        border-top: 0px solid transparent;
+        border-bottom: 3px solid #0065fc;
+        padding-bottom: 40px;
+        background: #ffff;
+    }
+
+    .icone{
+        margin-left: 15px;
+    }
+
+    .filtres{
+        max-width: 360px;
+        min-width: 360px;
+    }
+
+    .info{
+        max-width: 360px;
+        min-width: 360px;
+    }
+
+    .info i{
+        margin-right: 5px;
+    }
+    
+
+    .titre{
+         margin-top: 25px;
+     }
+
+
     .formulaire_recherche{
         width: 20%;
     }
@@ -901,7 +1038,8 @@ main{
         background: #ffff;
         margin-left: -12px;
         padding-right: 24px;
-        width: 360px;
+        max-width:360px;
+        min-width: 360px;
     }
 
     .bloc_hebergement h2{
@@ -923,7 +1061,8 @@ main{
     .bloc_populaire{
         margin-left: -12px;
         padding-right: 24px;
-        width: 360px;
+        max-width: 360px;
+        min-width: 360px;
         height: 580px;
         border-radius: 0;
     } 
@@ -931,11 +1070,22 @@ main{
     .bloc_activites{
         margin-left: 0;
         padding-right: 24px;
-        width: 100%;
+        max-width: 360px;
+        min-width: 360px;
     }
 
-    .blocs_footer{
+    .activite{
+        max-height: 250px;
+        min-height: 250px;
+        max-width: 350px;
+        margin-bottom: -5px;
+    }
+
+    .footer{
         height: auto;
+        max-width: 360px;
+        min-width: 360px;
+        margin-top: -5px;
     }
 
     .blocs_footer #section2{
