@@ -1001,6 +1001,11 @@ main{
         background: #ffff;
     }
 
+    .formulaire_recherche{
+        max-width: 360px;
+        min-width: 360px;
+    }
+
     .icone{
         margin-left: 15px;
     }
@@ -1032,6 +1037,11 @@ main{
     .filtres ul li{
         padding: 0 12px 0 0;
         margin-left: 5px;
+    }
+    
+    .hebergements{
+        max-width: 360px;
+        min-width: 360px;
     }
 
     .bloc_hebergement{
