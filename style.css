@@ -145,7 +145,7 @@ main{
     justify-content: center;
 }
 
-.fomulaire_recherche input{
+.formulaire_recherche input{
     padding: 0 0 0 20px;
     height: 50px;
     width: 220px;
@@ -795,19 +795,21 @@ main{
     
     header{
         max-width:600px;
+        min-width: 600px;
     }
 
     .titre , .precision{
         text-align: center;
     }
 
-    .fomulaire_recherche{
-        max-width: 720px;
+    .formulaire_recherche{
+        max-width: 780px;
         min-width: 600px;
     }
 
+
     .icone{
-        margin-left: 170px;
+        margin-left: 20px;
     }
 
     .filtres{
@@ -816,6 +818,16 @@ main{
     }
 
     .hebergements{
+        max-width: 720px;
+        min-width: 600px;
+    }
+
+    .bloc_hebergement{
+        max-width: 720px;
+        min-width: 600px;
+    }
+
+    .bloc_populaire{
         max-width: 720px;
         min-width: 600px;
     }
@@ -877,6 +889,11 @@ main{
     .navbar #lien-navbar-activites{
         flex-direction: column-reverse;
         grid-area: activites;
+    }
+
+    .formulaire_recherche{
+        max-width: 580px;
+        min-width: 480px;
     }
 
     .barre_recherche{
@@ -1002,6 +1019,11 @@ main{
     }
 
     .formulaire_recherche{
+        max-width: 360px;
+        min-width: 360px;
+    }
+
+    .bloc_recherche{
         max-width: 360px;
         min-width: 360px;
     }
