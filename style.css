@@ -1082,6 +1082,13 @@ main{
         background: #ffff;
     }
 
+    .navbar #lien-navbar-inscription:hover{
+        border-top: 0px solid transparent;
+        border-bottom: 3px solid #0065fc;
+        padding-bottom: 40px;
+        background: #ffff;
+    }
+
     .formulaire_recherche{
         margin-left: -6%;                                      
     }
