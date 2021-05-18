@@ -702,7 +702,7 @@ main{
             "Act1 Act2 Act3"
             "Act4 Act5 Act6";
         margin-bottom: 100px;
-        width: 1400px;                              
+        width: 1397px;                              
     }
 
     .activite{
@@ -1021,7 +1021,11 @@ main{
     }
 
     .blocs_footer #section1{
-        margin-right:123px;                                   
+        margin-right:90px;                                   
+    }
+
+    #section1 .titre{
+        margin-left: 3%;
     }
 
     #section1 a{
@@ -1034,12 +1038,27 @@ main{
         margin-right: 98px;                                   
     }
 
+    #section2 .titre{
+        width: 107%;
+        margin-left: 10%;
+    }
+
+    #section2 a{
+        margin-left: 14%;
+        width: 100%;
+    }
+
     .blocs_footer #section3{
-        margin-right: 156px;                                   
+        margin-right: 133px;                                   
+    }
+
+    #section3 .titre{
+        margin-left: 8%;
     }
 
     #section3 a{
-        margin-left: 11%;                                      
+        margin-left: 15%;
+        width: 100%;                                      
     }
 
     .blocs_footer .section{
@@ -1214,7 +1233,7 @@ main{
     }
 
     #section2 .titre{
-        margin-left: -16%;
+        margin-left: -24%;
     }
 
     #section2 .lien{
