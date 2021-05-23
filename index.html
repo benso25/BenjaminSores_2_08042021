@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reserviastyle.css">
         <script src="https://kit.fontawesome.com/00a1214ad1.js" crossorigin="anonymous"></script>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
@@ -19,20 +19,22 @@
 
 
     <header>
-        <nav class="navbar">
-            <a href="index.html" id="logo">
-                <img src="images/logo/Reservia.svg" alt="Logo Reservia" class="logo" />
-            </a>
-            <div class="lien-navbar" id="lien-navbar-hebergement">
-                <a href="#hebergements">Hébergements</a>
-            </div>
-            <div class="lien-navbar" id="lien-navbar-activites">
-                <a href="#activites">Activités</a>
-            </div>
-            <div class="lien-navbar" id="lien-navbar-inscription">
-                <a href="#">S'inscrire</a>
-            </div>
-        </nav>
+        <div class="navbar_container">                     <!--test-->
+            <nav class="navbar">
+                <a href="index.html" id="logo">
+                    <img src="images/logo/Reservia.svg" alt="Logo Reservia" class="logo" />
+                </a>
+                    <div class="lien-navbar" id="lien-navbar-hebergement">
+                        <a href="#hebergements">Hébergements</a>
+                    </div>
+                    <div class="lien-navbar" id="lien-navbar-activites">
+                        <a href="#activites">Activités</a>
+                    </div>
+                    <div class="lien-navbar" id="lien-navbar-inscription">
+                        <a href="#">S'inscrire</a>
+                    </div>
+            </nav>
+        </div>
     </header>
 
                                                                             <!--Slogan-->
@@ -94,7 +96,7 @@
 
                                                                                 <!--Section hébergement-->
 
-
+        <div class="container_hebergement">                                                                        
         <section class="hebergements" id="hebergements">
             <div class="bloc_hebergement">
                 <h2>Hébergements à Marseille</h2>
@@ -370,7 +372,7 @@
                             <div class="texte-hotel">
                                 <div class="nom-prix">
                                     <h3 class="nom-hotel">Hôtel Tout bleu et Blanc</h3>
-                                    <p class="prix hôtel">
+                                    <p class="prix-hotel">
                                         Nuit à partir de 
                                         <span class="prix">68€</span>
                                     </p>
@@ -398,61 +400,59 @@
                 </div>
             </div>
         </section>
+        </div>
 
                                                                     <!--Section : Activites-->
-
-
-    <h2 class="titre_activites">Activités à Marseille</h2>
-
+    <h2 class="titre_activites">Activités à Marseille</h2>                                                                        
     <section class="bloc_activites" id="activites">
-        <div class="activite" id="Act1">
-            <a href="#">
-                <div class="contour">
-                    <img src="images/activites/3_medium/Vieux_Port.jpg" alt="Vieux Port" />
-                    <h3 class="nom-activite">Vieux Port</h3>
-                </div>
-            </a>
-        </div>
-        <div class="activite" id="Act2">
-            <a href="#">
-                <div class="contour">
-                    <img src="images/activites/4_small/Fort_de_Pomègues.jpg" alt="Fort de Pomègues" />
-                    <h3 class="nom-activite">Fort de Pomègues</h3>
-                </div>
-            </a>
-        </div>
-        <div class="activite" id="Act3">
-            <a href="#">
-                <div class="contour">
-                    <img src="images/activites/4_small/Iles_du_Frioul.jpg" alt="Iles du Frioul" />
-                    <h3 class="nom-activite">Îles du Frioul</h3>
-                </div>
-            </a>
-        </div>
-        <div class="activite" id="Act4">
-            <a href="#">
-                <div class="contour">
-                    <img src="images/activites/3_medium/Parc_National_des_Calanques.jpg" alt="Parc National des Calanques" />
-                    <h3 class="nom-activite">Parc National des Calanques</h3>
-                </div>
-            </a>
-        </div>
-        <div class="activite" id="Act5">
-            <a href="#">
-                <div class="contour">
-                    <img src="images/activites/4_small/Notre_Dame_de_la_Garde.jpg" alt="Notre Dame de la Garde" />
-                    <h3 class="nom-activite">Notre Dame de la Garde</h3>
-                </div>
-            </a>
-        </div>
-        <div class="activite" id="Act6">
-            <a href="#">
-                <div class="contour">
-                    <img src="images/activites/4_small/Parc_Longchamp.jpg" alt="Parc Longchamp" />
-                    <h3 class="nom-activite">Parc Longchamp</h3>
-                </div>
-            </a>
-        </div>
+            <div class="activite" id="Act1">
+                <a href="#">
+                    <div class="contour">
+                        <img src="images/activites/3_medium/Vieux_Port.jpg" alt="Vieux Port" />
+                        <h3 class="nom-activite">Vieux Port</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="activite" id="Act2">
+                <a href="#">
+                    <div class="contour">
+                        <img src="images/activites/4_small/Fort_de_Pomègues.jpg" alt="Fort de Pomègues" />
+                        <h3 class="nom-activite">Fort de Pomègues</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="activite" id="Act3">
+                <a href="#">
+                    <div class="contour">
+                        <img src="images/activites/4_small/Iles_du_Frioul.jpg" alt="Iles du Frioul" />
+                        <h3 class="nom-activite">Îles du Frioul</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="activite" id="Act4">
+                <a href="#">
+                    <div class="contour">
+                        <img src="images/activites/3_medium/Parc_National_des_Calanques.jpg" alt="Parc National des Calanques" />
+                        <h3 class="nom-activite">Parc National des Calanques</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="activite" id="Act5">
+                <a href="#">
+                    <div class="contour">
+                        <img src="images/activites/4_small/Notre_Dame_de_la_Garde.jpg" alt="Notre Dame de la Garde" />
+                        <h3 class="nom-activite">Notre Dame de la Garde</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="activite" id="Act6">
+                <a href="#">
+                    <div class="contour">
+                        <img src="images/activites/4_small/Parc_Longchamp.jpg" alt="Parc Longchamp" />
+                        <h3 class="nom-activite">Parc Longchamp</h3>
+                    </div>
+                </a>
+            </div>
     </section>
     </main>
 
