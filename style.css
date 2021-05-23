@@ -917,7 +917,7 @@ main{
 
     .hotel > .hotel-img{
         width: 77vw;
-        max-height: 100px;
+        max-height: 15vh;
     }
 
 
@@ -941,7 +941,7 @@ main{
 
     .activite{
         min-height: 19vh;
-        max-height: 26vh;
+        max-height: 24vh;
         max-width: 79vw;
         margin-left: 10%;
     }
