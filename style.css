@@ -685,7 +685,7 @@ main{
     }
 
     .populaire{
-        height: 13vh;
+        /*height: 13vh;*/
         margin-left: 22%;
         width: 50vw;
     }
@@ -760,7 +760,7 @@ main{
     }
 
     .populaire{
-        height: 13vh;
+        /*height: 13vh;*/
         margin-left: 14%;
         width: 66vw;
     }
@@ -879,17 +879,21 @@ main{
     }
 
     .populaire-img img{
-        min-width: 165px;
-        min-height: 134px;
-        margin: 5%;
+        min-width: 110px;
+        max-height: 100px;
+        margin: 0%;
+    }
+
+    .plus-populaires .texte-hotel{
+        font-size: 12px;
     }
 
     .nom-prix{
-        margin-left: 37%;
+        margin-left: 5%;
     }
 
     .populaire .notation{
-        margin-left: 37%;
+        margin-left: 5%;
     }
 
     .populaire{
@@ -902,12 +906,18 @@ main{
         width: 96%;
     }
 
+
     .hotels a{
         width: 79vw;
     }
 
+    .hotel .texte-hotel{
+        font-size: 12px;
+    }
+
     .hotel > .hotel-img{
         width: 77vw;
+        max-height: 100px;
     }
 
 
@@ -934,6 +944,10 @@ main{
         max-height: 26vh;
         max-width: 79vw;
         margin-left: 10%;
+    }
+
+    .nom-activite{
+        font-size: 13px;
     }
 
 }
